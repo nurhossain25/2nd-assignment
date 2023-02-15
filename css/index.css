@@ -165,7 +165,7 @@ Variable declaration
      button style  
  %%%%%%%%%%%%%%%%%%%*/
 
-.floating-btn {
+.style-btn {
     width: 120px;
     height: 140px;
     border-radius: 10px;
@@ -177,11 +177,54 @@ Variable declaration
     right: 150px;
 }
 
-.floating-btn-title,
-.floating-btn-detail {
+.style-btn-title,
+.style-btn-detail {
     text-align: center;
 }
 
-.floating-btn-title {
+.style-btn-title {
     padding-top: 30px;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&
+ Facts section Style 
+ $$$$$$$$$$$$$$$$$$$$$*/
+.facts {
+    padding: 25px 150px 30px;
+}
+
+.fact-title {
+    margin-bottom: 15px;
+}
+
+.facts-cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.facts-card {
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    width: 230px;
+    height: 190px;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.facts-card:hover {
+    background-color: blueviolet;
+    transform: translate(10px, -15px);
+    transition: 1s ease-in;
+}
+
+.facts-card-title {
+    font-size: 35px;
+    color: #424242
+}
+
+.facts-card-description {
+    font-size: 18px;
+    color: #727272;
 }
