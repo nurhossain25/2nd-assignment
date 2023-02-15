@@ -10,7 +10,7 @@ Variable declaration
 }
 
 /*,,,,,,,,,,,,,,,,,,,,,,,,
- Common style or Utilities 
+       Common style 
  ,,,,,,,,,,,,,,,,,,,,,,,,*/
 * {
     margin: 0;
@@ -45,7 +45,9 @@ Variable declaration
     padding: 25px 150px 30px;
 }
 
-/* Nav-bar style */
+/*===================
+     Nav-bar style 
+ ===================*/
 #nav-bar {
     display: flex;
     justify-content: space-between;
@@ -64,7 +66,9 @@ Variable declaration
     color: #424242;
 }
 
-/* Banner Style */
+/*++++++++++++++++++++
+      Banner Style 
++++++++++++++++++++*/
 .banner {
     text-align: center;
 }
@@ -82,7 +86,9 @@ Variable declaration
 }
 
 
-/* Quick List Section Style  */
+/* //////////////////////////
+   Quick List Section Style 
+   ///////////////////////// */
 .quick-info {
     display: flex;
     gap: 60px;
@@ -120,7 +126,10 @@ Variable declaration
 }
 
 
-/* Features section details */
+/*[[[[[[[[[[[[[[[[[[[[[[[
+ Features section details
+ ]]]]]]]]]]]]]]]]]]]]]]]] */
+
 .features {
     padding: 25px 150px 30px;
     display: flex;
@@ -150,4 +159,29 @@ Variable declaration
 .feature-architect img {
     width: 708px;
     height: 982px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%
+     button style  
+ %%%%%%%%%%%%%%%%%%%*/
+
+.floating-btn {
+    width: 120px;
+    height: 140px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    bottom: 200px;
+    right: 150px;
+}
+
+.floating-btn-title,
+.floating-btn-detail {
+    text-align: center;
+}
+
+.floating-btn-title {
+    padding-top: 30px;
 }
