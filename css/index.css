@@ -1,13 +1,17 @@
-/* Font style */
+/*//////////// Font style /////////////////*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
 
-/* Variable declaration */
+/*.................... 
+Variable declaration
+...................... */
 :root {
     --primary-color: #FF900E;
 }
 
-/* Common style or Utilities */
+/*,,,,,,,,,,,,,,,,,,,,,,,,
+ Common style or Utilities 
+ ,,,,,,,,,,,,,,,,,,,,,,,,*/
 * {
     margin: 0;
     padding: 0;
@@ -75,4 +79,42 @@
 .banner-img img {
     width: 850px;
     margin: 30px auto 0;
+}
+
+
+/* Quick List Section Style  */
+.quick-info {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 0 0 0 200px;
+}
+
+.quick-list-details {
+    margin-bottom: 15px;
+}
+
+.quick-list-description {
+    width: 80%;
+    font-size: medium;
+}
+
+#color {
+    color: #727272;
+    font-weight: 400;
+}
+
+#colors {
+    color: var(--primary-color);
+}
+
+.quick-list-team-works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.quick-list-team-works img {
+    height: 200px;
+    width: 200px;
 }
