@@ -1,16 +1,8 @@
 /*//////////// Font style /////////////////*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
-
-/*.................... 
-Variable declaration
-...................... */
-:root {
-    --primary-color: #FF900E;
-}
-
 /*,,,,,,,,,,,,,,,,,,,,,,,,
-       Common style 
+       Common style Start
  ,,,,,,,,,,,,,,,,,,,,,,,,*/
 * {
     margin: 0;
@@ -38,6 +30,13 @@ Variable declaration
     border-radius: 10px;
     color: white;
 
+}
+
+/*.................... 
+Variable declaration
+...................... */
+:root {
+    --primary-color: #FF900E;
 }
 
 
