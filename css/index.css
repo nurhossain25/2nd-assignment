@@ -263,6 +263,8 @@ Variable declaration
 }
 
 /* Extra section style */
+
+
 .contact {
     display: flex;
     justify-content: center;
@@ -273,6 +275,7 @@ Variable declaration
 .contact-title {
     font-size: 35x;
     padding: 30px 0 10px;
+    color: crimson;
 }
 
 .side-one img {
@@ -289,6 +292,7 @@ Variable declaration
 .form input[type="submit"] {
     background-color: aqua;
     color: blueviolet;
+    font-size: medium;
 
 }
 
