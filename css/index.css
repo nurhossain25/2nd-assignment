@@ -219,10 +219,10 @@ Variable declaration
 
 .facts-card {
     text-align: center;
-    border: 1px solid var(--primary-color);
-    border-radius: 10px;
     width: 230px;
     height: 190px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
     padding: 20px 0;
     margin-top: 30px;
 }
@@ -243,7 +243,9 @@ Variable declaration
     color: #727272;
 }
 
-/* Sponsor Section Style*/
+/*@@@@@@@@@@@@@@@@@@@@@@@
+ Sponsor Section Style
+ @@@@@@@@@@@@@@@@@@@@@@@@*/
 
 .sponsor-details,
 .sponsor-design {
@@ -264,7 +266,10 @@ Variable declaration
 
 }
 
-/* Extra section style */
+/************************
+ Extra section style 
+ 
+ ************************/
 
 
 .contact {
@@ -308,7 +313,7 @@ textarea {
 }
 
 
-/* Footer */
+/* Footer style */
 #footer {
     background-color: #FFF4E7;
     margin: auto;
@@ -351,7 +356,7 @@ textarea {
         padding: 10px;
     }
 
-    /* Header */
+    /* Header Style*/
     #nav-bar {
         flex-direction: column;
     }
@@ -364,7 +369,7 @@ textarea {
 
     }
 
-    /* Banner */
+    /* Banner Style */
     .banner-img img {
         width: 100%;
     }
@@ -373,7 +378,7 @@ textarea {
         font-size: 35px;
     }
 
-    /* Quick list */
+    /* Quick list Style*/
     .quick-info {
         flex-direction: column-reverse;
     }
@@ -395,7 +400,7 @@ textarea {
         height: 100%;
     }
 
-    /* Feature */
+    /* Feature Section style*/
     .features {
         padding: 10px;
         flex-direction: column;
@@ -454,7 +459,7 @@ textarea {
         text-align: center;
     }
 
-    /* Contact */
+    /* Contact details */
     .contact {
         flex-direction: column;
         gap: 0px;
@@ -466,7 +471,7 @@ textarea {
     }
 
 
-    /* Footer */
+    /* Footer style*/
     #footer {
         margin: 0;
         width: 100%;
