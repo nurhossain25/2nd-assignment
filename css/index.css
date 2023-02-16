@@ -228,3 +228,24 @@ Variable declaration
     font-size: 18px;
     color: #727272;
 }
+
+/* Sponsor Section Style*/
+
+.sponsor-details,
+.sponsor-design {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.img-sponsor img {
+    width: 100;
+    height: 40px;
+    filter: grayscale(100%);
+}
+
+.img-sponsor {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
