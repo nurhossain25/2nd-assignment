@@ -249,3 +249,18 @@ Variable declaration
     margin-top: 40px;
 
 }
+
+/* Footer */
+#footer {
+    background-color: #FFF4E7;
+    margin: auto;
+    padding: 35px 0;
+    width: 900px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#footer p {
+    text-align: center;
+    color: #424242;
+}
