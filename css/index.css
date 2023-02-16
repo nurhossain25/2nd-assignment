@@ -22,7 +22,7 @@ Variable declaration
 .title {
     font-size: 35px;
     color: #131313;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .description {
@@ -33,16 +33,17 @@ Variable declaration
 .primary-btn {
     background-color: var(--primary-color);
     border: none;
+    margin: 20px 0 0;
     padding: 15px 20px;
     border-radius: 10px;
     color: white;
-    margin: 20px 0 0;
+
 }
 
 
 #header,
 .feature,
-.quick-list,
+.quick-info,
 .facts,
 .sponsor,
 #footer,
@@ -100,6 +101,7 @@ Variable declaration
 /* //////////////////////////
    Quick List Section Style 
    ///////////////////////// */
+
 .quick-info {
     display: flex;
     gap: 60px;
@@ -113,15 +115,15 @@ Variable declaration
 
 .quick-list-description {
     width: 80%;
-    font-size: medium;
+
 }
 
-#color {
+.color {
     color: #727272;
     font-weight: 400;
 }
 
-#colors {
+.colors {
     color: var(--primary-color);
 }
 
@@ -147,7 +149,7 @@ Variable declaration
     gap: 30px;
 }
 
-.feature-info {
+.feature-title {
     border-left: 3px solid var(--primary-color);
     padding: 0 0 0 15px;
     margin-bottom: 20px;
@@ -228,7 +230,7 @@ Variable declaration
 .facts-card:hover {
     background-color: blueviolet;
     transform: translate(10px, -15px);
-    transition: 1s ease-in;
+    transition: all .5s ease-in-out;
 }
 
 .facts-card-title {
@@ -278,7 +280,7 @@ Variable declaration
     color: crimson;
 }
 
-.side-one img {
+.img-side img {
     height: 300px;
     width: 400px;
 }
@@ -319,4 +321,154 @@ textarea {
 #footer p {
     text-align: center;
     color: #424242;
+}
+
+/* -----------------
+    Media Query
+---------------------*/
+/*###################*/
+/*Mobile Device Only*/
+
+@media only screen and (max-width: 576px) {
+
+    /* Common Style  */
+
+    .title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .break {
+        display: none;
+    }
+
+    #header,
+    .feature,
+    .quick-info,
+    .facts,
+    .sponsor-texts {
+        margin-bottom: 40px;
+        padding: 10px;
+    }
+
+    /* Header */
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    #nav-bar ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 15px;
+
+    }
+
+    /* Banner */
+    .banner-img img {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 35px;
+    }
+
+    /* Quick list */
+    .quick-info {
+        flex-direction: column-reverse;
+    }
+
+    .quick-list-description {
+        width: 100%;
+    }
+
+    .quick-list-details {
+        text-align: center;
+    }
+
+    .quick-list-team-works {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-list-team-works img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Feature */
+    .features {
+        padding: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .feature-info {
+        text-align: left;
+    }
+
+    .feature-architect img {
+        width: 100%;
+        height: 500px;
+
+    }
+
+    /* Floating Button */
+    .style-btn {
+        display: none;
+    }
+
+    /* Facts */
+    .fact-description {
+        text-align: center;
+    }
+
+    .facts-cards {
+        margin: auto;
+        flex-direction: column;
+        width: 230px;
+        gap: 20px;
+    }
+
+    .facts-card {
+        padding: 35px 0;
+    }
+
+    /* Sponsor */
+    .sponsor {
+        margin-bottom: 20px;
+    }
+
+    .img-sponsor {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .img-sponsor img {
+        margin: 0 auto;
+        width: 164px;
+        height: 44px;
+        margin-bottom: 30px;
+    }
+
+    .sponsor-design {
+        text-align: center;
+    }
+
+    /* Contact */
+    .contact {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .img-side img {
+        height: 322px;
+        width: 200px;
+    }
+
+
+    /* Footer */
+    #footer {
+        margin: 0;
+        width: 100%;
+    }
 }
